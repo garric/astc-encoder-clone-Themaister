@@ -707,7 +707,7 @@ void dump_image(astc_codec_image * img)
 	printf("\n\n");
 }
 
-
+#ifndef ASTC_ENCODER_NO_MAIN
 int main(int argc, char **argv)
 {
 	int i;
@@ -2495,3 +2495,4 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+#endif

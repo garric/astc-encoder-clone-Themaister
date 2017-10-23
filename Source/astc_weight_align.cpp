@@ -495,7 +495,7 @@ void compute_angular_endpoints_for_quantization_levels(int samplecount, const fl
 		// Did we find anything?
 		if(bsi < 0)
 		{
-			printf("ERROR: Unable to find an encoding within the specified error limits. Please revise the error limit values and try again.\n");
+			//printf("ERROR: Unable to find an encoding within the specified error limits. Please revise the error limit values and try again.\n");
 			exit(1);
 		}
 
