@@ -59,29 +59,6 @@ float nan(int p)
 	return v.q;
 }
 
-float fmax(float p, float q)
-{
-	if (p != p)
-		return q;
-	if (q != q)
-		return p;
-	if (p > q)
-		return p;
-	return q;
-}
-
-float fmin(float p, float q)
-{
-	if (p != p)
-		return q;
-	if (q != q)
-		return p;
-	if (p < q)
-		return p;
-	return q;
-}
-
-
 float2 fmax(float2 p, float2 q)
 {
 	return float2(fmax(p.x, q.x), fmax(p.y, q.y));

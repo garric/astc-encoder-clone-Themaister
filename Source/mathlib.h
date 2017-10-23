@@ -18,6 +18,7 @@
 #define MATHLIB_H_INCLUDED
 
 #include "vectypes.h"
+#include <math.h>
 
 // basic OpenCL functions
 float inversesqrt(float p);
@@ -26,9 +27,6 @@ float sinpi(float p);
 float cospi(float p);
 
 float nan(int p);
-
-float fmax(float p, float q);
-float fmin(float p, float q);
 
 float2 fmax(float2 p, float2 q);
 
