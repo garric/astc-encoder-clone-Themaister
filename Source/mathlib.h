@@ -17,8 +17,8 @@
 
 #define MATHLIB_H_INCLUDED
 
-#include "vectypes.h"
 #include <math.h>
+#include "vectypes.h"
 
 // basic OpenCL functions
 float inversesqrt(float p);
