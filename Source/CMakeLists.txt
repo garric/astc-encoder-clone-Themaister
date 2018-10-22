@@ -42,7 +42,6 @@ add_library(astc-encoder STATIC
 	mathlib.cpp
 	astc_toplevel.cpp
 	astc_stb_tga.cpp
-	stb_image.c
 	softfloat.cpp)
 
 target_include_directories(astc-encoder PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
